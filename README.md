@@ -11,8 +11,10 @@
 
 ### Response
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Field Name|Type|Required|
+|---|---|---|
+|coins|Array|Yes|
+|coins[].id|String|Yes|
+|coins[].name|String|Yes|
+|coins[].price|Double|Yes|
+|coins[].imageURL|String|Yes|
