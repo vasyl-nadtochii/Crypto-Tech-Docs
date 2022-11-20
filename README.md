@@ -21,8 +21,14 @@
 
 ## Get Details
 
-- Path: `/getDetails.php`
+- Path: `/getDetails.php?id={coin_id}`
 - Method: `GET`
+
+### Parameters
+
+|Field Name|Type|Required|
+|---|---|---|
+|id|String|Yes|
 
 ### Response
 
