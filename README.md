@@ -4,6 +4,19 @@
 
 `https://crypto2211.000webhostapp.com/`
 
+## Test Request
+
+- Path: `/test.php`
+- Method: `GET`
+
+### Response
+
+|Field Name|Type|Required|
+|---|---|---|
+|id|String|Yes|
+|prop1|Int|Yes|
+|prop2|Bool|Yes|
+
 ## Get Coins
 
 - Path: `/getCoins.php`
